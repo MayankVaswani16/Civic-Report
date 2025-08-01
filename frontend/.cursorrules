@@ -1,0 +1,11 @@
+# shadcn instructions
+
+When using Shadcn components, do not specify explicit colors directly in component files. Instead,  reference index.css variables in your components. This ensures consistent theming and easier maintenance.
+
+Use the latest version of Shadcn to install new components, like this command to add a button component:
+
+```bash
+npx shadcn@latest add button
+```
+
+Always use shadcn components if available and not html tags
