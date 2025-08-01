@@ -70,38 +70,38 @@
 
 :root {
   --radius: 0.375rem;
-  --background: oklch(1.0000 0 0);
-  --foreground: oklch(0.3211 0 0);
-  --card: oklch(1.0000 0 0);
-  --card-foreground: oklch(0.3211 0 0);
-  --popover: oklch(1.0000 0 0);
-  --popover-foreground: oklch(0.3211 0 0);
-  --primary: oklch(0.6231 0.1880 259.8145);
-  --primary-foreground: oklch(1.0000 0 0);
-  --secondary: oklch(0.9670 0.0029 264.5419);
-  --secondary-foreground: oklch(0.4461 0.0263 256.8018);
-  --muted: oklch(0.9846 0.0017 247.8389);
-  --muted-foreground: oklch(0.5510 0.0234 264.3637);
-  --accent: oklch(0.9514 0.0250 236.8242);
-  --accent-foreground: oklch(0.3791 0.1378 265.5222);
-  --destructive: oklch(0.6368 0.2078 25.3313);
-  --border: oklch(0.9276 0.0058 264.5313);
-  --input: oklch(0.9276 0.0058 264.5313);
-  --ring: oklch(0.6231 0.1880 259.8145);
-  --chart-1: oklch(0.6231 0.1880 259.8145);
-  --chart-2: oklch(0.5461 0.2152 262.8809);
-  --chart-3: oklch(0.4882 0.2172 264.3763);
-  --chart-4: oklch(0.4244 0.1809 265.6377);
-  --chart-5: oklch(0.3791 0.1378 265.5222);
-  --sidebar: oklch(0.9846 0.0017 247.8389);
-  --sidebar-foreground: oklch(0.3211 0 0);
-  --sidebar-primary: oklch(0.6231 0.1880 259.8145);
-  --sidebar-primary-foreground: oklch(1.0000 0 0);
-  --sidebar-accent: oklch(0.9514 0.0250 236.8242);
-  --sidebar-accent-foreground: oklch(0.3791 0.1378 265.5222);
-  --sidebar-border: oklch(0.9276 0.0058 264.5313);
-  --sidebar-ring: oklch(0.6231 0.1880 259.8145);
-  --destructive-foreground: oklch(1.0000 0 0);
+  --background: #f5f7ff;
+  --foreground: #23224c;
+  --card: #f5f7ff;
+  --card-foreground: #23224c;
+  --popover: #f5f7ff;
+  --popover-foreground: #23224c;
+  --primary: #3a5adf;
+  --primary-foreground: #ffffff;
+  --secondary: #a084e8;
+  --secondary-foreground: #ffffff;
+  --muted: #e0e7ff;
+  --muted-foreground: #6b6bbd;
+  --accent: #7f53ac;
+  --accent-foreground: #ffffff;
+  --destructive: #e53e3e;
+  --border: #d1d5fa;
+  --input: #d1d5fa;
+  --ring: #3a5adf;
+  --chart-1: #3a5adf;
+  --chart-2: #7f53ac;
+  --chart-3: #a084e8;
+  --chart-4: #6b6bbd;
+  --chart-5: #e0e7ff;
+  --sidebar: #e0e7ff;
+  --sidebar-foreground: #23224c;
+  --sidebar-primary: #3a5adf;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #7f53ac;
+  --sidebar-accent-foreground: #ffffff;
+  --sidebar-border: #d1d5fa;
+  --sidebar-ring: #3a5adf;
+  --destructive-foreground: #ffffff;
   --font-sans: Inter, sans-serif;
   --font-serif: Source Serif 4, serif;
   --font-mono: JetBrains Mono, monospace;
@@ -125,38 +125,38 @@
 }
 
 .dark {
-  --background: oklch(0.2046 0 0);
-  --foreground: oklch(0.9219 0 0);
-  --card: oklch(0.2686 0 0);
-  --card-foreground: oklch(0.9219 0 0);
-  --popover: oklch(0.2686 0 0);
-  --popover-foreground: oklch(0.9219 0 0);
-  --primary: oklch(0.6231 0.1880 259.8145);
-  --primary-foreground: oklch(1.0000 0 0);
-  --secondary: oklch(0.2686 0 0);
-  --secondary-foreground: oklch(0.9219 0 0);
-  --muted: oklch(0.2686 0 0);
-  --muted-foreground: oklch(0.7155 0 0);
-  --accent: oklch(0.3791 0.1378 265.5222);
-  --accent-foreground: oklch(0.8823 0.0571 254.1284);
-  --destructive: oklch(0.6368 0.2078 25.3313);
-  --border: oklch(0.3715 0 0);
-  --input: oklch(0.3715 0 0);
-  --ring: oklch(0.6231 0.1880 259.8145);
-  --chart-1: oklch(0.7137 0.1434 254.6240);
-  --chart-2: oklch(0.6231 0.1880 259.8145);
-  --chart-3: oklch(0.5461 0.2152 262.8809);
-  --chart-4: oklch(0.4882 0.2172 264.3763);
-  --chart-5: oklch(0.4244 0.1809 265.6377);
-  --sidebar: oklch(0.2046 0 0);
-  --sidebar-foreground: oklch(0.9219 0 0);
-  --sidebar-primary: oklch(0.6231 0.1880 259.8145);
-  --sidebar-primary-foreground: oklch(1.0000 0 0);
-  --sidebar-accent: oklch(0.3791 0.1378 265.5222);
-  --sidebar-accent-foreground: oklch(0.8823 0.0571 254.1284);
-  --sidebar-border: oklch(0.3715 0 0);
-  --sidebar-ring: oklch(0.6231 0.1880 259.8145);
-  --destructive-foreground: oklch(1.0000 0 0);
+  --background: #23224c;
+  --foreground: #f5f7ff;
+  --card: #23224c;
+  --card-foreground: #f5f7ff;
+  --popover: #23224c;
+  --popover-foreground: #f5f7ff;
+  --primary: #7f53ac;
+  --primary-foreground: #ffffff;
+  --secondary: #3a5adf;
+  --secondary-foreground: #ffffff;
+  --muted: #6b6bbd;
+  --muted-foreground: #e0e7ff;
+  --accent: #a084e8;
+  --accent-foreground: #23224c;
+  --destructive: #e53e3e;
+  --border: #3a5adf;
+  --input: #3a5adf;
+  --ring: #7f53ac;
+  --chart-1: #7f53ac;
+  --chart-2: #3a5adf;
+  --chart-3: #a084e8;
+  --chart-4: #e0e7ff;
+  --chart-5: #6b6bbd;
+  --sidebar: #3a5adf;
+  --sidebar-foreground: #f5f7ff;
+  --sidebar-primary: #7f53ac;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #a084e8;
+  --sidebar-accent-foreground: #23224c;
+  --sidebar-border: #7f53ac;
+  --sidebar-ring: #a084e8;
+  --destructive-foreground: #ffffff;
   --radius: 0.375rem;
   --font-sans: Inter, sans-serif;
   --font-serif: Source Serif 4, serif;
@@ -210,12 +210,17 @@
     }
   }
 
-  /* Grid pattern background */
-  .bg-grid-pattern {
-    background-image: 
-      radial-gradient(circle at 1px 1px, var(--color-muted-foreground) 1.5px, transparent 0);
-    background-size: 24px 24px;
-    opacity: 0.30;
+  /* Graffiti background inspired by Google interface drawings */
+  .bg-graffiti {
+    background-image:
+      url('data:image/svg+xml;utf8,<svg width="600" height="400" viewBox="0 0 600 400" fill="none" xmlns="http://www.w3.org/2000/svg"><g opacity="0.18"><path d="M120 320c-10-30 40-60 60-40s-10 60-40 60c-20 0-20-20-20-20z" fill="%237f53ac"/><circle cx="180" cy="340" r="18" fill="%233a5adf"/><rect x="400" y="60" width="80" height="40" rx="20" fill="%23a084e8"/><path d="M420 80c0-20 40-20 40 0s-40 20-40 0z" fill="%236b6bbd"/><path d="M500 300c-10-20 30-40 40-20s-10 40-30 40c-15 0-15-10-10-20z" fill="%237f53ac"/><circle cx="520" cy="320" r="12" fill="%233a5adf"/><rect x="60" y="60" width="60" height="30" rx="15" fill="%23e0e7ff"/><path d="M80 75c0-10 20-10 20 0s-20 10-20 0z" fill="%236b6bbd"/></g><g opacity="0.22"><path d="M250 180c-8-24 32-48 48-32s-8 48-32 48c-16 0-16-16-16-16z" fill="%237f53ac"/><circle cx="300" cy="200" r="14" fill="%233a5adf"/><rect x="350" y="120" width="60" height="30" rx="15" fill="%23a084e8"/><path d="M370 135c0-10 20-10 20 0s-20 10-20 0z" fill="%236b6bbd"/></g></svg>'),
+      linear-gradient(135deg, #f5f7ff 60%, #e0e7ff 100%);
+    background-repeat: no-repeat;
+    background-size: cover, cover;
+    background-position: center, center;
+    min-height: 100vh;
+    width: 100%;
+    z-index: 0;
   }
 
   /* Primary border glow effect */
